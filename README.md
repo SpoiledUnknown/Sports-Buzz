@@ -1,6 +1,6 @@
 # Sports Buzz - Python Program
-[![License: MIT](https://img.shields.io/badge/License-MIT/Apache.svg)](https://opensource.org/licenses/MIT)
-[![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://your-documentation-url)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://github.com/SpoiledUnknown/Sports-Buzz)
 
 
 ## Description:
