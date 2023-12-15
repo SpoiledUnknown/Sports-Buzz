@@ -1,4 +1,7 @@
 # Sports Buzz - Python Program
+[![License: MIT](https://img.shields.io/badge/License-MIT/Apache.svg)](https://opensource.org/licenses/MIT)
+[![Docs Passing](https://img.shields.io/badge/Docs-Passing-brightgreen.svg)](https://your-documentation-url)
+
 
 ## Description:
   This is a demo python project, its purpose is to help athletes and players get more opportunity and the employer a wider range of athletes to choose from.
