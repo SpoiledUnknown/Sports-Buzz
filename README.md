@@ -20,7 +20,7 @@
     - Write your host name in `'host':'your_host'`
     - Write your username in `'user':'you_user'`
     - Write your password in `'password':'your_password'`
-    - You can remove the database while running for the first time since MySQL crashes is databse is already specified.
+    - You can remove the database while running for the first time since MySQL crashes if database is already specified.
  - Write `python main.py`.
  - Follow commands on the screen to navigate through the app.
   
