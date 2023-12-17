@@ -7,14 +7,14 @@ config = {
     'host':'host_name',
     'user':'user_name',
     'password':'your_password',
-    'database':'database_name'
+    'database':'your_database_name'
 }
 
 connection = mysql.connector.connect(**config)
 
 cursor = connection.cursor()
 
-cursor.execute("CREATE DATABASE IF NOT EXISTS database_name")
+cursor.execute("CREATE DATABASE IF NOT EXISTS your_database_name")
 
 # Create the cricket table
 cursor.execute("""
