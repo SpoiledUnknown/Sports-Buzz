@@ -4,17 +4,17 @@ import mysql.connector
 
 # Database setup
 config = {
-    'host':'localhost',
-    'user':'root',
-    'password':'shashank123',
-    'database':'harshtest'
+    'host':'host_name',
+    'user':'user_name',
+    'password':'your_password',
+    'database':'database_name'
 }
 
 connection = mysql.connector.connect(**config)
 
 cursor = connection.cursor()
 
-cursor.execute("CREATE DATABASE IF NOT EXISTS harshtest")
+cursor.execute("CREATE DATABASE IF NOT EXISTS database_name")
 
 # Create the cricket table
 cursor.execute("""
