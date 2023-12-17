@@ -4,17 +4,17 @@ import mysql.connector
 
 # Database setup
 config = {
-    'host':'your_host',
-    'user':'you_user',
-    'password':'your_password',
-    'database':'your_database_name'
+    'host':'localhost',
+    'user':'root',
+    'password':'shashank123',
+    'database':'harshtest'
 }
 
 connection = mysql.connector.connect(**config)
 
 cursor = connection.cursor()
 
-cursor.execute("CREATE DATABASE IF NOT EXISTS your_database_name")
+cursor.execute("CREATE DATABASE IF NOT EXISTS harshtest")
 
 # Create the cricket table
 cursor.execute("""
@@ -227,6 +227,7 @@ def handle_registration():
                         print("The number of saves you have entered should contain numbers. Please enter again.")
                     else:
                         break
+                total_saves = int(total_saves)
                 break
             elif continue_input.lower()=='no':
                 break
@@ -234,7 +235,6 @@ def handle_registration():
                 print('Invalid input !!')
                 continue
                            
-        total_saves = int(total_saves)
         # Insert football-related data into MySQL
         insert_football_query = """
             INSERT INTO football (name, age, gender, contact_number, total_matches,
